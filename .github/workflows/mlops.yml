@@ -2,13 +2,13 @@ name: CI Pipeline MLOps
 
 on:
   push:
-    branches:["main"]
+    branches: [ "main" ]
   pull_request:
-    branches:["main"]
+    branches: [ "main" ]
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout código
         uses: actions/checkout@v3

@@ -19,7 +19,7 @@ jobs:
           python-version: 3.11
 
       - name: Instalar dependências
-        run: pip install -r requirements.text 
+        run: pip install -r requirements.txt 
 
       - name: Rodar testes automatizados
         run: pytest test_pipeline.py

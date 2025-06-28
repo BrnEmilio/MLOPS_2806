@@ -1,0 +1,25 @@
+name: CI Pipeline MLOps
+
+on:
+  push:
+    branches:["main"]
+  pull_request:
+    branches:["main"]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Instalar dependências
+        run: pip install -r requirements.text 
+
+      - name: Rodar testes automatizados
+        run: pytest test_pipeline.py

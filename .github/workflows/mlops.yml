@@ -21,13 +21,17 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements.txt 
 
-      - name: Executar notebooks Exploracao
+      - name: Executar notebook Exploracao
         run: |
           jupyter nbconvert --to notebook --execute notebooks/01_exploracao.ipynb --output 01_exploracao_output.ipynb --output-dir notebooks
 
-      - name: Executar notebooks Validacao e Treino
+      - name: Executar notebook Validacao e Treino
         run: |
-          jupyter nbconvert --to notebook --execute notebooks/02_pipeline_validacao_pandas.ipynb --output 02_pipeline_validacao_pandas_output.ipynb --output-dir notebooks
-                   
+          jupyter nbconvert --to notebook --execute notebooks/02_pipeline_validacao.ipynb --output 02_pipeline_validacao_output.ipynb --output-dir notebooks
+
+      - name: Executar notebook Monitoracao
+        run: |
+          jupyter nbconvert --to notebook --execute notebooks/04_monitoramento_fairness.ipynb --output 04_monitoramento_fairness_output.ipynb --output-dir notebooks
+          
       - name: Rodar testes automatizados
         run: pytest test_pipeline.py

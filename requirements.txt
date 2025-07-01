@@ -7,3 +7,5 @@ joblib
 matplotlib
 seaborn
 pytest
+jupyter
+nbconvert

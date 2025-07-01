@@ -1,6 +1,7 @@
 text,label
 "Adorei o produto de investimentos no mercado de capitais", positivo
 "O serviço de instalação internet doi péssimo. Não recomendo", negativo
+"Foi ok",neutro
 "Entrega rápida com atendimento excelente", positivo
 "Não voltarei a comprar", negativo
 "Adorei o produto, superou minhas expectativas!",positivo
@@ -15,3 +16,21 @@ text,label
 "Nossa este produto é nota 10!.",positivo
 "Top esta carteira da marca.",positivo
 "Muito ruim, não gostei deste serviço.",negativo
+"O produto chegou na data prevista",neutro
+"Entrega normal, sem problemas",neutro
+"O serviço atendeu ao que foi prometido.",neutro
+"Produto conforme anunciado.",neutro
+"Sem novidades sobre o pedido.",neutro
+"Foi tudo bem, sem problemas.",neutro
+"Recebi o que comprei, dentro do prazo.",neutro
+"Não tive problemas, mas também não me surpreendi.",neutro
+"Funcionou como deveria.",neutro
+"Fiquei extremamente satisfeito com todo o processo de compra: desde o atendimento atencioso até a entrega que chegou antes do prazo, tudo foi perfeito e superou totalmente minhas expectativas. Recomendo muito!",positivo
+"Estou profundamente decepcionado com o serviço prestado. Além de não cumprirem o prazo de entrega o produto veio com defeito e não obtive retorno do suporte mesmo após várias tentativas de contato. Péssima experiência.",negativo
+"Recebi o produto hoje. Ele corresponde exatamente ao que estava descrito no site e foi entregue na data informada. Ainda não tive tempo de testar todos os recursos mas até o momento não tenho nada de especial a comentar.",neutro
+"Comprei esperando uma boa experiência, mas infelizmente tive problemas desde o início: o site ficou fora do ar durante o pagamento, a entrega atrasou mais de uma semana e, para piorar, o suporte demorou dias para responder minhas solicitações. Me senti completamente desamparado.",negativo
+"Após efetuar a compra, recebi o produto dentro do prazo estipulado. A embalagem veio intacta e o item estava conforme descrito no site. Até o momento, não houve nenhum problema nem surpresa relevante, tudo correu conforme o esperado.",neutro
+"Desde o momento em que finalizei a compra até a entrega, tudo foi excelente: fui informado sobre cada etapa do processo, o produto chegou antes do prazo e em perfeitas condições. A equipe demonstrou total profissionalismo e atenção. Certamente voltarei a comprar.",positivo
+"Infelizmente, minha experiência foi decepcionante. O produto chegou com avarias e não era compatível com o que foi anunciado. Tentei contato com o atendimento diversas vezes e só recebi respostas automáticas. Não recomendo de forma alguma.",negativo
+"Minha experiência foi bastante comum: realizei o pedido, acompanhei o rastreamento pelo site e o produto chegou sem nenhum imprevisto. Não houve nenhum ponto especialmente positivo ou negativo, apenas o esperado de uma compra online.",neutro
+"Fiquei surpreso positivamente com o serviço! Além de receber o produto bem antes do previsto, a embalagem era caprichada e ainda veio um cartão de agradecimento personalizado. Sem dúvida, superou todas as minhas expectativas!",positivo

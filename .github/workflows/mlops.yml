@@ -31,7 +31,7 @@ jobs:
 
       - name: Executar notebook Monitoracao
         run: |
-          jupyter nbconvert --to notebook --execute notebooks/04_monitoramento_fairness.ipynb --output 04_monitoramento_fairness_output.ipynb --output-dir notebooks
+          jupyter nbconvert --to notebook --execute notebooks/04_monitorar_fairness.ipynb --output 04_monitorar_fairness_output.ipynb --output-dir notebooks
           
       - name: Rodar testes automatizados
         run: pytest test_pipeline.py

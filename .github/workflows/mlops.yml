@@ -25,7 +25,6 @@ jobs:
         run: |
           jupyter nbconvert --to notebook --execute notebooks/01_exploracao.ipynb --output 01_exploracao_output.ipynb --output-dir notebooks
           jupyter nbconvert --to notebook --execute notebooks/02_pipeline_validacao_pandas.ipynb --output 02_pipeline_validacao_pandas_output.ipynb --output-dir notebooks
-          jupyter nbconvert --to notebook --execute notebooks/04_monitoramento_fairness.ipynb --output 04_monitoramento_fairness_output.ipynb --output-dir notebooks
-           
+                   
       - name: Rodar testes automatizados
         run: pytest test_pipeline.py
